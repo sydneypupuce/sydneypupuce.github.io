@@ -20,7 +20,7 @@
       background: #2b2d3c;
       border-radius: 16px;
       padding: 32px;
-      max-width: 480px;
+      max-width: 520px;
       width: 100%;
       text-align: center;
       box-shadow: 0 8px 24px rgba(0,0,0,0.4);
@@ -35,6 +35,22 @@
       padding: 6px 14px;
       border-radius: 20px;
       font-size: 0.9rem;
+    }
+    .projet {
+      background: #3a3d52;
+      border-radius: 12px;
+      padding: 18px;
+      margin-bottom: 24px;
+      text-align: left;
+    }
+    .projet h3 { margin-bottom: 8px; }
+    .projet p { margin-bottom: 14px; font-size: 0.95rem; }
+    .services { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 14px; }
+    .services span {
+      background: #2b2d3c;
+      padding: 4px 10px;
+      border-radius: 14px;
+      font-size: 0.8rem;
     }
     a {
       display: inline-block;
@@ -51,17 +67,30 @@
   <div class="carte">
     <h1>Sydney Pupuce</h1>
     <div class="sous-titre">Développeur JavaScript</div>
-    <p>Salut ! Moi c'est Sydney. J'aime coder et créer des petits projets. Ici, tu peux voir ce que je sais faire. (Remplace ce texte par ta propre description.)</p>
+    <p>Salut ! Moi c'est Sydney. Je code en JavaScript et je crée des sites et des projets pour aider les gens et les entreprises.</p>
 
     <h2>Mes compétences</h2>
     <div class="competences">
       <span>JavaScript</span>
       <span>HTML</span>
       <span>CSS</span>
-      <span>Discord bots</span>
+      <span>Création de sites web</span>
     </div>
 
-    <a href="https://github.com/" target="_blank">Mon GitHub</a>
+    <h2>Mes projets</h2>
+    <div class="projet">
+      <h3>Pixel et Créations</h3>
+      <p>Un site de services polyvalents : aide informatique, idées pour les entreprises et plein d'autres choses.</p>
+      <div class="services">
+        <span>Aide informatique</span>
+        <span>Design</span>
+        <span>Impression 3D</span>
+        <span>Création de sites web</span>
+      </div>
+      <a href="https://pixel-et-creations.pages.dev/officiel" target="_blank">Voir le site</a>
+    </div>
+
+    <a href="https://github.com/sydneypupuce" target="_blank">Mon GitHub</a>
   </div>
 </body>
 </html>
